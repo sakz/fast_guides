@@ -18,5 +18,5 @@ length=${#name[*]}
 echo $length
 
 # 取得数组单个元素的长度
-lengthn=${#name[n]}
+length=${#name[n]}
 echo $length

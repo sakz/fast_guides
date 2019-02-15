@@ -132,7 +132,7 @@ my_name="jack"
 my_name='jack';
 ```
 
-ps: 变量名和等号之间不能有空格,变量后面不能有;
+ps: 变量名和等号之间不能有空格
 
 Shell中的引号和PHP类似，字符串可以用单引号，也可以用双引号
 
@@ -275,7 +275,7 @@ length=${#name[*]}
 echo $length
 
 # 取得数组单个元素的长度
-lengthn=${#name[n]}
+length=${#name[n]}
 echo $length
 ```
 

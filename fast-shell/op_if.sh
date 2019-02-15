@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-a=1
-b=2
+read -p '输入a: ' a
+read -p '输入b: ' b
+
+# a=1
+# b=2
+
 if [ $a == $b ]
     then
         echo "a 等于 b"
