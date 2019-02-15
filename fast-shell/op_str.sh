@@ -15,13 +15,13 @@
 #定义变量
 my_name="jack";
 my_age="20岁"
-str='hello'$my_name
+str="hello $my_name"
 
 #拼接字符串
 echo $my_name $my_age
 echo $my_name$my_age
-echo 'hello' $my_name
 echo $str
+echo "world $my_name"
 
 #获取字符串长度
 
